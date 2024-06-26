@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+
+
+.container {
+    width: 450px;
+    background: transparent;
+    border: 2px solid #a8a8a8;
+    backdrop-filter: blur(20px);
+    border-radius: 10px;
+    padding: 100px 50px;
+}
+
+h1 {
+    font-size: 36px;
+    color: #000000;
+
+}
+
+.input-container {
+    position: relative;
+    width: 100%;
+    height: 20px;
+    margin: 30px 0;
+}
+
+.input-container input {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: 1px solid;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+    border-color: #a8a8a8;
+}
+
+.input-container img {
+    position: absolute;
+    left: -25px;
+    margin-top: 5px;
+}
+
+.input-container a {
+    font-size: 14px;
+    margin-top: 5px;
+    color: #b8b7b7;
+    text-decoration: none;
+    border: none;
+    position: absolute;
+    right: 23px;
+}
+
+.input-container a:hover {
+    text-decoration: underline;
+}
+
+.submit-button {
+    width: 100%;
+    height: 50px;
+    background-color: #0F4FB0;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    font-weight: 700;
+    margin-top: 25px;
+    cursor: pointer;
+    outline: none;
+    font-size: 15px;
+
+}
+
+.submit-button:hover {
+    background-color: #0c408d;
+}
+
+p {
+    color: #a8a8a8;
+    text-align: center;
+    margin-top: 15px;
+
+}
+
+.submit-button2 {
+    width: 100%;
+    height: 50px;
+    background-color: #b8bdbd;
+    border: none;
+    border-radius: 10px;
+    color: #000000;
+    font-weight: 400;
+    margin-top: 25px;
+    cursor: pointer;
+    outline: none;
+    font-size: 15px;
+}
+
+.facebook-image {
+    position: absolute;
+    left: 60px;
+    margin-top: 33px;
+}
+
+.submit-button2:hover {
+    background-color: #8f8f8f;
+}
+
+.google-image {
+    position: absolute;
+    left: 60px;
+    margin-top: 33px;
+}
+
+
+.register-link p {
+    font-size: 16px;
+    position: absolute;
+    margin-top: 48px;
+}
